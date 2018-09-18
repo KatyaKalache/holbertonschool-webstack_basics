@@ -1,2 +1,5 @@
 -- creates the table unique_id id INT with the default value 1 and unique
-CREATE TABLE IF NOT EXISTS unique_id(id INT(1) UNIQUE, name VARCHAR(256));
+CREATE TABLE IF NOT EXISTS unique_id
+(
+  id INT(1) AUTO_INCREMENT UNIQUE, name VARCHAR(256)
+);
